@@ -249,28 +249,36 @@ footer {
   
 /* Media query for small devices (max-width: 768px) */
 @media (max-width: 768px) {
-    .loading-container {
-        margin-top: 100px;
-    }
 
-    .audio-pin {
-        width: 70px;
-        height: 70px;
-    }
+    .navbar-toggler-btn
+    {
+        color: white;
+        padding: 10px 10px;
+        background: none;
+        border: 1px solid white;
+        border-radius: 10px;
 
-    .timeout-text {
-        font-size: 0.9rem;
     }
-
     .home {
         margin-top: 150px;
     }
-
+    .about{
+        margin-top: 350px;
+    }
+    #cybertrend{
+        margin-top: 150px;
+    }
+    .float-end{
+        display: none;
+        right: 10px;
+    }
     .get-btn {
         width: 120px;
         padding: 12px 20px;
         margin-top: 30px;
     }
+    
+
 
     .about {
         padding: 50px 20px;
